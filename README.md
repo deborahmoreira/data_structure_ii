@@ -1,4 +1,4 @@
-# data_structure_ii
+# Data Structure II
 This repo aims to keep and show the activities developed in the Data Structure II course.
 
 -----------------------------------------------------------------------------------------
