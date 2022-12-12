@@ -13,7 +13,10 @@ It's important to mention that this project is a collaboration between the stude
 
 ## Pipeline
 
-![Pipeline Proposed](https://excalidraw.com/#json=3UrU6CeGCpv2MXYap_zCQ,BOh-ZR_KqtpVZWBD5raUfQ)
+<p align='center'>
+<img src='./images/Pipeline.png'>
+</p>
+
 The suggested data pipeline is consisted of 4 explicit steps: `Data Collecting`, `Data Cleaning`, `Truncate` and `Explore the Network*`. This last one is actually a "condensed" step that includes other tasks that analyze the network and generate graphs according to determined metrics. 
 
 To define the pipeline we create a class and define the functions that represent each task as well as the corresponding task that it depends on to operate. This assures that the tasks will be executed in the correct order. 
@@ -24,7 +27,9 @@ The first task of the pipe line receives the first wikipedia page to be explored
 
 Also, because of the numerous amount of pages that are connect and the huge amount of time that would take to process other layers of the network, we are only extracting nodes until the second layer. Moreover, we stipulated pages that are end point to the extraction by manually exploring the network, these pages are defined as `STOP` and should represents leaf nodes or nodes that possibly are not relevant to the original topic.
 
-#IMAGEM 
+<p align='center'>
+<img src='./images/Wikipedia Page.png'>
+</p>
 
 The seed page that we decided to explore in this project is the Wikipedia Page about Vertebrate. After the initial extraction of the network until the second layer, there were found around 2.8k nodes and 68k edges. 
 
@@ -55,7 +60,9 @@ The first analysis of the network performed consist in evaluating the nodes foll
 
 After passing our network to this task, we obtained the following image to represent all 4 metrics explained above: 
 
-#IMAGEM
+<p align='center'>
+<img src='./images/all_centralities_measures.jpeg'>
+</p>
 
 ### Centrality Distributions
 
@@ -66,17 +73,23 @@ The analysis performed on this task is based on two density  functions: `Probabi
 
 
 
-#IMAGEM 
+<p align='center'>
+<img src='./images/pdf.png'>
+</p>
 
 According tho de PDF curve for degree metric above, it's possible to see that almost 100% of nodes on the network have a degree less than 100. The CDF curve also confirms this evaluation: 
 
-#IMAGEM 
+<p align='center'>
+<img src='./images/cdf.jpeg'>
+</p>
 
 ### All Centrality Distributions
 
 This task compare all the metrics.
 
-#IMAGEM 
+<p align='center'>
+<img src='./images/comparing_centralities.png'>
+</p>
 
 Taking a look at the image displayed above, it's possible to see areas that represent clusters in the network. Furthermore, we can say that Eigenvetor distribution has almost a linear look. 
 
@@ -87,7 +100,9 @@ For the core decomposition of the network the k-core and k-shell metrics are use
 
 First we discovered how many k-cores the network had and then we displayed in blue and the k-shel is displayed in red. 
 
-#IMAGEM
+<p align='center'>
+<img src='./images/core_and_shell.png'>
+</p>
 
 ## References
 
