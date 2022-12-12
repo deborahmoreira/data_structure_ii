@@ -9,5 +9,5 @@ Another goal of this project is to create a pipeline that receives a starting pa
 
 It's impotant to mention that this project is a collaboration between the students [Aryel Medeiros](https://github.com/aryelmedeiros) and [Deborah Moreira](https://github.com/deborahmoreira)
 
-
+link for loom: https://www.loom.com/share/a8a10b1272a34b15a4d5677c458f6a92
 ## Pipeline
