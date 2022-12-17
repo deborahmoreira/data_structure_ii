@@ -143,7 +143,7 @@ Retina its another interesting tool, actually a plugin of Gephi, where we can pu
 Gephisto it's another way to draw our network using a web based tool. When our `.grapml` is uploaded the result it's the image bellow.
 
 <p align='center'>
-<img src='./images/gephisto.jpeg'>
+<img src='wikipedia_network/images/gephisto.jpeg'>
 </p>
 
 In this representation, automatically generated in Gephisto, the size of a node depend on out-degree. The following collors represent a descending order of in-degree: 
