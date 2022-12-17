@@ -111,7 +111,7 @@ First we discovered how many k-cores the network had and then we displayed in bl
 
 ## Part II - Different ways to draw the network
 
-Using some tools such as [Gephi](https://gephi.org/), [Retina](https://ouestware.gitlab.io/retina/beta) and [Gephisto](https://jacomyma.github.io/gephisto/) we can visualize our network in different colors and shapes, which hepl us to better comprehend what was builded in previous section.
+Using some tools such as [Gephi](https://gephi.org/), [Retina](https://ouestware.gitlab.io/retina/beta) and [Gephisto](https://jacomyma.github.io/gephisto/) we can visualize our network in different colors and shapes, which help us to better understand what was builded in previous section.
 
 ### Gephi
 
