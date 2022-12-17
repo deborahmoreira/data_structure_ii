@@ -136,12 +136,21 @@ As you can see, these steps are intrisic to each network.
 
 Retina its another interesting tool, actually a plugin of Gephi, where we can publish our network on famous world wide web and let anyone interact with it. The link to the page created it's on begin of this readme file and also [here](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fdeborahmoreira%2F932375630c4c0d0642d44405bc8409c4%2Fraw%2Fabceff5bb96e483ac59c0e832bde935b755b750b%2Fvertebrate_gephi.graphml&r=d&sa[]=co&sa[]=r&ca[]=g%20e-s&ca[]=g%20s-s&ca[]=g-s&ca[]=e-s&ca[]=cl-s&ca[]=h-s&ca[]=b-s&ca[]=m-s&ca[]=i-s).
 
-* :movie_camera: Exploratory analysis using few metrics on Retina [![Open in Loom](link pro loom)
+* :movie_camera: Exploratory analysis using few metrics on Retina [![Open in Loom]([link pro loom](https://www.loom.com/share/f4ca2eaf96804eff86d84c91717f0aa9))
 
 ### Gephisto
 
 Gephisto it's another way to draw our network using a browser based tool. When our `.grapml` is uploaded the result it's the image bellow.
 
+In this representation, automatically generated in Gephisto, the size of a node depend on degree. The following collors represent a descending order of degree: 
+* nodes with degree = 6 : yellow
+* nodes with degree = 5 : red
+* nodes with degree = 4 : green
+* nodes with degree = 3 : pink
+* nodes with degree = 2 : blue
+The predominant grey color means all other degrees non represented with the mentioned collors. 
+
+Our first shell is composed by that nodes with degree = 2, it's a filter on our pipeline and we can call them leaves (in blue). Examining few displayed labels, we can see that they are nodes with degree = 2, that is, this visualization emphasizes first shell. 
 
 ## References
 
