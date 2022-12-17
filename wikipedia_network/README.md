@@ -1,6 +1,6 @@
 # Generating a Network from a Wikipedia Page!
 
-<center><img width="800" src="images/head_image.png"></center>
+<center><img width="800" src="images/header_image.png"></center>
 
 This project has the goal to generate a network from a single `Wikipedia` page (seed page) and to analyze how the pages are connected to each other based on different metrics. 
 
