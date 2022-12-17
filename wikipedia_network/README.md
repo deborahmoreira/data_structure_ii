@@ -109,8 +109,7 @@ First we discovered how many k-cores the network had and then we displayed in bl
 <img src='./images/core_and_shell.png'>
 </p>
 
-## Part II - Get into what the network looks like through metrics
-* :movie_camera: Quick explanation about this section [![Open in Loom](link pro loom)
+## Part II - Different ways to draw the network
 
 Using some tools such as [Gephi](https://gephi.org/), [Retina](https://ouestware.gitlab.io/retina/beta) and [Gephisto](https://jacomyma.github.io/gephisto/) we can visualize our network in different colors and shapes, which hepl us to better comprehend what was builded in previous section.
 
@@ -127,11 +126,21 @@ With this powerful tool it's possible to import the `.grapml` that we already ha
 The image shown above reflect our graph when its painted using **in-degree** metric &ndash; that is, the number of edges that reach a node &ndash; and some layouts &ndash; a property based on phisycs laws (ForceAtlas 2) and few expansions were applied until we get a "feel good" shape. 
 
 After this, a filter was applied selecting that nodes with a higher degree and putting the on a interval that is represented by a color as it follows:
-	- nodes with degree 10 to 38 : deep purple
-	- nodes with degree 38 to 86 : yellow
-	- nodes with degree higher than 86 : orange
+* nodes with degree 10 to 38 : deep purple
+* nodes with degree 38 to 86 : yellow
+* nodes with degree higher than 86 : orange
 	
 As you can see, these steps are intrisic to each network.
+
+### Retina
+
+Retina its another interesting tool, actually a plugin of Gephi, where we can publish our network on famous world wide web and let anyone interact with it. The link to the page created it's on begin of this readme file and also [here](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fdeborahmoreira%2F932375630c4c0d0642d44405bc8409c4%2Fraw%2Fabceff5bb96e483ac59c0e832bde935b755b750b%2Fvertebrate_gephi.graphml&r=d&sa[]=co&sa[]=r&ca[]=g%20e-s&ca[]=g%20s-s&ca[]=g-s&ca[]=e-s&ca[]=cl-s&ca[]=h-s&ca[]=b-s&ca[]=m-s&ca[]=i-s).
+
+* :movie_camera: Exploratory analysis using few metrics on Retina [![Open in Loom](link pro loom)
+
+### Gephisto
+
+Gephisto it's another way to draw our network using a browser based tool. When our `.grapml` is uploaded the result it's the image bellow.
 
 
 ## References
