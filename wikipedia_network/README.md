@@ -6,10 +6,12 @@ Due to the amount of computational power and time to process all data, we are on
 
 Another goal of this project is to create a pipeline that receives a starting page from wikipedia and includes all the processing phases. 
 
-
 It's important to mention that this project is a collaboration between the students [Aryel Medeiros](https://github.com/aryelmedeiros) and [Deborah Moreira](https://github.com/deborahmoreira) 
 
-`link to loom`: https://www.loom.com/share/a8a10b1272a34b15a4d5677c458f6a92
+
+* :movie_camera: Overview and work explanation [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/a8a10b1272a34b15a4d5677c458f6a92)
+
+* :globe_with_meridians: See graph as a [webpage](https://deborahmoreira.github.io/data_structure_ii/wikipedia_network/network/)
 
 ## Pipeline
 
@@ -44,7 +46,7 @@ On this step of the pipeline, a function is responsible to filter all nodes that
 ### Show Edges
 The total number of nodes and edges after cleaning the data is acttuly a dedicated simple task of the pipeline.
 
-## Explore the Netwok*
+## Explore the Network
 
 As previously mentioned, this step of the pipeline is in fact a group of subtasks responsible to analyze the network by some metrics involving: degree, closeness, betweenness, eigenvector, centrality distributions, k-core and k-shell.
 
@@ -103,6 +105,7 @@ First we discovered how many k-cores the network had and then we displayed in bl
 <p align='center'>
 <img src='./images/core_and_shell.png'>
 </p>
+
 
 ## References
 
