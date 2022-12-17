@@ -152,6 +152,7 @@ In this representation, automatically generated in Gephisto, the size of a node 
 * nodes with degree = 4 : green
 * nodes with degree = 3 : pink
 * nodes with degree = 2 : blue
+
 The predominant grey color means all other degrees non represented with the mentioned collors. 
 
 Our first shell is composed by that nodes with degree = 2, it's a filter on our pipeline and we can call them leaves (in blue). Examining few displayed labels, we can see that they are nodes with degree = 2, that is, this visualization emphasizes first shell. In addition, Gephisto always choose different ways to draw the graph.
