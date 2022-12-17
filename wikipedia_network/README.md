@@ -10,12 +10,12 @@ Another goal of this project is to create a pipeline that receives a starting pa
 
 It's important to mention that this project is a collaboration between the students [Aryel Medeiros](https://github.com/aryelmedeiros) and [Deborah Moreira](https://github.com/deborahmoreira) 
 
+>  :art: **Interact with graph at [Retina/Gist](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fdeborahmoreira%2F932375630c4c0d0642d44405bc8409c4%2Fraw%2Fabceff5bb96e483ac59c0e832bde935b755b750b%2Fvertebrate_gephi.graphml&r=d&sa[]=co&sa[]=r&ca[]=g%20e-s&ca[]=g%20s-s&ca[]=g-s&ca[]=e-s&ca[]=cl-s&ca[]=h-s&ca[]=b-s&ca[]=m-s&ca[]=i-s)**
 
-* :movie_camera: Overview and work explanation [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/a8a10b1272a34b15a4d5677c458f6a92)
+## Part I - Build the network and explore it's metrics
 
-* :globe_with_meridians: See graph as a [webpage](https://deborahmoreira.github.io/data_structure_ii/wikipedia_network/network/)
+* :movie_camera: Quick explanation about this section [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/a8a10b1272a34b15a4d5677c458f6a92)
 
-## Part I - Get into what the network looks like through metrics
 ### Pipeline
 
 <p align='center'>
@@ -108,6 +108,30 @@ First we discovered how many k-cores the network had and then we displayed in bl
 <p align='center'>
 <img src='./images/core_and_shell.png'>
 </p>
+
+## Part II - Get into what the network looks like through metrics
+* :movie_camera: Quick explanation about this section [![Open in Loom](link pro loom)
+
+Using some tools such as [Gephi](https://gephi.org/), [Retina](https://ouestware.gitlab.io/retina/beta) and [Gephisto](https://jacomyma.github.io/gephisto/) we can visualize our network in different colors and shapes, which hepl us to better comprehend what was builded in previous section.
+
+### Gephi
+
+With this powerful tool it's possible to import the `.grapml` that we already have and calculate many other metrics easily. Futhermore, this open-source tool allow us to represent the color of nodes based on a metrics and create mutiple filters as needed.
+
+* :globe_with_meridians: See the network as a HTML page [![Open in git](https://img.shields.io/badge/webpage-open%20here-green)]([https://ivanovitchm.github.io/netdeploy/network](https://deborahmoreira.github.io/data_structure_ii/wikipedia_network/network/)
+
+<p align='center'>
+<img src='./images/filtered1.png'>
+</p>
+
+The image shown above reflect our graph when its painted using **in-degree** metric &ndash; that is, the number of edges that reach a node &ndash; and some layouts &ndash; a property based on phisycs laws (ForceAtlas 2) and few expansions were applied until we get a "feel good" shape. 
+
+After this, a filter was applied selecting that nodes with a higher degree and putting the on a interval that is represented by a color as it follows:
+	- nodes with degree 10 to 38 : deep purple
+	- nodes with degree 38 to 86 : yellow
+	- nodes with degree higher than 86 : orange
+	
+As you can see, these steps are intrisic to each network.
 
 
 ## References
