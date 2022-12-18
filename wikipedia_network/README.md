@@ -123,7 +123,7 @@ With this powerful tool it's possible to import the pipeline's `.grapml` output 
 <img src='./images/filtered1.png'>
 </p>
 
-To generate the image above we first applied the ForceAtlas 2 layout (a laytout based on phisycs laws) to the network, with the atribute `Dispersion = 10` to better separete nodes from each other. After that, the "magic" started to happen when we paited the nodes using **in-degree** metric and changed their size based on each node's **overall degree**. The **in-degree** metric is the number of edges that reach a node, meaning the times of a page is referenced by other pages. Expansions were also performed on the network to enhance the overall look.
+To generate the image above we first applied the ForceAtlas 2 layout (a laytout based on phisycs laws) to the network, with the atribute `Dispersion = 10` to better separete nodes from each other. After that, the "magic" started to happen when we painted the nodes using **in-degree** metric and changed their size based on each node's **overall degree**. The **in-degree** metric is the number of edges that reach a node, meaning the times of a page is referenced by other pages. Expansions were also performed on the network to enhance the overall look.
 
 
 The nodes were first paited with the following colors:
