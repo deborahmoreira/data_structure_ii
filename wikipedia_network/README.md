@@ -47,7 +47,7 @@ After the initial definition of the nodes on the netwok, now we need to eliminat
 On this step of the pipeline, a function is responsible to filter all nodes that have a degree less or equal to 2, since these nodes don't represent such important nodes. In the first step of the data collecting, there was `2.8k nodes and 68k edges`. After removing all the duplicates, loop edges and truncating the network,  we ended up with around `7005 nodes and  42038 edges.`
 
 #### Show Edges
-The total number of nodes and edges after cleaning the data is acttuly a dedicated simple task of the pipeline.
+The total number of nodes and edges after cleaning the data is actually a dedicated simple task of the pipeline.
 
 #### Explore the Network
 
