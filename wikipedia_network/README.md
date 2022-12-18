@@ -115,7 +115,7 @@ For the second part of this project we used the `.grapml` output file of our pip
 
 ### Gephi
 
-With this powerful tool it's possible to import the pipeline's `.grapml` output file  and calculate many other metrics easily. Futhermore, this open-source tool allowed us to display our network with specific layouts, represent the color of nodes based on a metrics and use mutiple filters as needed.
+With this powerful tool it's possible to import the pipeline's `.grapml` output file  and calculate many other metrics easily. Futhermore, this open-source tool allowed us to display our network with specific layouts, represent the color of nodes based on a metrics and use mutiple filters as needed. With the correct `plug-in` installed, `Gephi` is ablle to export the enhanced network to a `html` / `.js` template, this output file is udes to deploy it into a page here on this repository.
 
 * :globe_with_meridians: See the network as a HTML page [![Open in git](https://img.shields.io/badge/webpage-open%20here-green)](https://deborahmoreira.github.io/data_structure_ii/wikipedia_network/network/)
 
@@ -145,13 +145,19 @@ To better group nodes with higher degrees filters were applied, selecting nodes 
 	
 Also, the nodes with the highest degrees (deep red) were labed. As you can see, these steps are intrisic to each network.
 
-In addition, we created a different work area insed `gephi` to generate another view of the network, now running the **community metrics** to paint the nodes. Then we combined the **modularity** filter with the **betweenness centrality** filter to decide which nodes would be labeled. Consequently, the folloing representation was generated (we used it in the top of this document):  
+In addition, we created a different work area inside `gephi` to generate another view of the network (to use as header of this document), now running the **community metrics** to paint the nodes. Then we combined the **modularity** filter with the **betweenness centrality** filter to decide which nodes would be labeled. Consequently, the folloing representation was generated:  
 
 <center><img width="800" src="images/header_image.png"></center>
 
 ### Retina
 
 Retina its another interesting tool, actually a plugin of Gephi, where we can publish our network on famous world wide web and let anyone interact with it. The link to the page created it's on begin of this readme file and also [here](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fdeborahmoreira%2F932375630c4c0d0642d44405bc8409c4%2Fraw%2Fabceff5bb96e483ac59c0e832bde935b755b750b%2Fvertebrate_gephi.graphml&r=d&sa[]=co&sa[]=r&ca[]=g%20e-s&ca[]=g%20s-s&ca[]=g-s&ca[]=e-s&ca[]=cl-s&ca[]=h-s&ca[]=b-s&ca[]=m-s&ca[]=i-s).
+
+With Retina we explored the same network only now using different metrics to colour the nodes and therefore further analyze releshionships between nodes. The following metrics were explored and explained in a video linked bellow: 
+* Out Degree 
+* Eccentricity 
+* Closeness Centrality 
+* Betweeness Centrality
 
 * :movie_camera: Exploratory analysis using few metrics on Retina [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)]()
 
