@@ -180,7 +180,9 @@ In this representation, automatically generated in Gephisto, the size of a node 
 
 The predominant grey color means all other degrees non represented with the mentioned collors. 
 
-Our first shell is composed by that nodes with degree = 2, it's a filter on our pipeline and we can call them leaves (in blue). Examining few displayed labels, we can see that they are nodes with degree = 2, that is, this visualization emphasizes first shell. In addition, Gephisto always choose different ways to draw the graph.
+Our first shell is composed by that nodes with degree = 2, it's a filter on our pipeline and we can call them leaves (in blue). Examining few displayed labels, we can see that they are nodes with degree = 2, that is, this visualization emphasizes first shell. 
+
+In addition, Gephisto always choose different ways to draw the graph, so we can not exacly establish a correlation between those names. However, we can notice that most names refers to scientific names to identify organisms (species followed by genus).
 
 ## References
 
