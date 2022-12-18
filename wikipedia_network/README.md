@@ -123,7 +123,7 @@ With this powerful tool it's possible to import the pipeline's `.grapml` output 
 <img src='./images/filtered1.png'>
 </p>
 
-To generate the image above we first applied the ForceAtlas 2 layout (a laytout based on phisycs laws) to the network, with the atribute `Dispersion = 10` to better separete nodes from each other. After that, the "magic" started to happen when we paited the nodes using **in-degree** metric &ndash and changed their size based on each node's **overall degree**. The **in-degree* metric is the number of edges that reach a node &ndash, meaning the times of a page is referenced by other pages. Expansions were also performed on the network to enhance the overall look.
+To generate the image above we first applied the ForceAtlas 2 layout (a laytout based on phisycs laws) to the network, with the atribute `Dispersion = 10` to better separete nodes from each other. After that, the "magic" started to happen when we paited the nodes using **in-degree** metric and changed their size based on each node's **overall degree**. The **in-degree** metric is the number of edges that reach a node, meaning the times of a page is referenced by other pages. Expansions were also performed on the network to enhance the overall look.
 
 
 The nodes were first paited with the following colors:
@@ -145,23 +145,23 @@ To better group nodes with higher degrees filters were applied, selecting nodes 
 	
 Also, the nodes with the highest degrees (deep red) were labed. As you can see, these steps are intrisic to each network.
 
-In addition, we created a different work area inside `gephi` to generate another view of the network (to use as header of this document), now running the **community metrics** to paint the nodes. Then we combined the **modularity** filter with the **betweenness centrality** filter to decide which nodes would be labeled. Consequently, the folloing representation was generated:  
+In addition, we created a different workspace inside `gephi` to generate another view of the network (to use as header of this document), now running the **community metrics** to paint the nodes. Then we combined the **modularity** filter with the **betweenness centrality** filter to decide which nodes would be labeled. Consequently, the folloing representation was generated:  
 
 <center><img width="800" src="images/header_image.png"></center>
 
 ### Retina
 
-Retina its another interesting tool, actually a plugin of Gephi, where we can publish our network on famous world wide web and let anyone interact with it. The link to the page created it's on begin of this readme file and also [here](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fdeborahmoreira%2F932375630c4c0d0642d44405bc8409c4%2Fraw%2Fabceff5bb96e483ac59c0e832bde935b755b750b%2Fvertebrate_gephi.graphml&r=d&sa[]=co&sa[]=r&ca[]=g%20e-s&ca[]=g%20s-s&ca[]=g-s&ca[]=e-s&ca[]=cl-s&ca[]=h-s&ca[]=b-s&ca[]=m-s&ca[]=i-s).
+Retina is another interesting tool, actually a plugin of Gephi, where we can publish our network on famous world wide web and let anyone interact with it. The link to the page created it's on begin of this readme file and also bellow:
 
-With Retina we explored the same network only now using different metrics to colour the nodes and therefore further analyze releshionships between nodes. The following metrics were explored and explained in a video linked bellow: 
+>  :art: **Interact with graph using [Retina/Gist](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fdeborahmoreira%2F932375630c4c0d0642d44405bc8409c4%2Fraw%2Fabceff5bb96e483ac59c0e832bde935b755b750b%2Fvertebrate_gephi.graphml&r=d&sa[]=co&sa[]=r&ca[]=g%20e-s&ca[]=g%20s-s&ca[]=g-s&ca[]=e-s&ca[]=cl-s&ca[]=h-s&ca[]=b-s&ca[]=m-s&ca[]=i-s)**
+
+With Retina, we explored the same network only now using different metrics to colour the nodes and therefore further analyze releshionships between nodes. The following metrics were explored and explained in a video linked bellow: 
 * Out Degree 
 * Eccentricity 
 * Closeness Centrality 
 * Betweeness Centrality
 
 * :movie_camera: Exploratory analysis using few metrics on Retina [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)]()
-
->  :art: **Interact with graph using [Retina/Gist](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fdeborahmoreira%2F932375630c4c0d0642d44405bc8409c4%2Fraw%2Fabceff5bb96e483ac59c0e832bde935b755b750b%2Fvertebrate_gephi.graphml&r=d&sa[]=co&sa[]=r&ca[]=g%20e-s&ca[]=g%20s-s&ca[]=g-s&ca[]=e-s&ca[]=cl-s&ca[]=h-s&ca[]=b-s&ca[]=m-s&ca[]=i-s)**
 
 ### Gephisto
 
