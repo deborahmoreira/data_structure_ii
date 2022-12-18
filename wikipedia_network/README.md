@@ -127,21 +127,21 @@ To generate the image above we first applied the ForceAtlas 2 layout (a laytout 
 
 
 The nodes were first paited with the following colors:
-* nodes with degree 2 : black  
-* nodes with degree 3: light blue 
-* nodes with degree 4: green  
-* nodes with degree 5: turquise  
-* nodes with degree 6: brown
-* nodes with degree 7: orange
-* nodes with degree 8: beige
-* nodes with degree 9: light pink 
-* nodes with degree 10: pink 
+* nodes with degree `2` : black  
+* nodes with degree `3`: light blue 
+* nodes with degree `4`: green  
+* nodes with degree `5`: turquise  
+* nodes with degree `6`: brown
+* nodes with degree `7`: orange
+* nodes with degree `8`: beige
+* nodes with degree `9`: light pink 
+* nodes with degree `10`: pink 
 * other nodes: gray
 
 To better group nodes with higher degrees filters were applied, selecting nodes within a range and painting them with a color as it follows:
-* nodes with degree 10 to 38 : deep purple
-* nodes with degree 38 to 86 : yellow
-* nodes with degree higher than 86 : deep red
+* nodes with degree `10 to 38 `: deep purple
+* nodes with degree `38 to 86` : yellow
+* nodes with degree `higher than 86` : deep red
 	
 Also, the nodes with the highest degrees (deep red) were labed. As you can see, these steps are intrisic to each network.
 
@@ -160,6 +160,8 @@ With Retina we explored the same network only now using different metrics to col
 * Betweeness Centrality
 
 * :movie_camera: Exploratory analysis using few metrics on Retina [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)]()
+
+>  :art: **Interact with graph using [Retina/Gist](https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fdeborahmoreira%2F932375630c4c0d0642d44405bc8409c4%2Fraw%2Fabceff5bb96e483ac59c0e832bde935b755b750b%2Fvertebrate_gephi.graphml&r=d&sa[]=co&sa[]=r&ca[]=g%20e-s&ca[]=g%20s-s&ca[]=g-s&ca[]=e-s&ca[]=cl-s&ca[]=h-s&ca[]=b-s&ca[]=m-s&ca[]=i-s)**
 
 ### Gephisto
 
