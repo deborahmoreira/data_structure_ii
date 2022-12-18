@@ -123,7 +123,7 @@ With this powerful tool it's possible to import the pipeline's `.grapml` output 
 <img src='./images/filtered1.png'>
 </p>
 
-To generate the image above we first applied the ForceAtlas 2 layout (a laytout based on phisycs laws) to the network, with the atribute `Dispersion = 10` to better separete nodes from each other. After that, the "magic" started to happen when we paited the nodes using **in-degree** metric &ndash and changed their size based on each node's *overall degree*. The **in-degree* metric is the number of edges that reach a node &ndash, meaning the times of a page is referenced by other pages. Expansions were also performed on the network to enhance the overall look.
+To generate the image above we first applied the ForceAtlas 2 layout (a laytout based on phisycs laws) to the network, with the atribute `Dispersion = 10` to better separete nodes from each other. After that, the "magic" started to happen when we paited the nodes using **in-degree** metric &ndash and changed their size based on each node's **overall degree**. The **in-degree* metric is the number of edges that reach a node &ndash, meaning the times of a page is referenced by other pages. Expansions were also performed on the network to enhance the overall look.
 
 
 The nodes were first paited with the following colors:
@@ -144,6 +144,10 @@ To better group nodes with higher degrees filters were applied, selecting nodes 
 * nodes with degree higher than 86 : deep red
 	
 Also, the nodes with the highest degrees (deep red) were labed. As you can see, these steps are intrisic to each network.
+
+In addition, we created a different work area insed `gephi` to generate another view of the network, now running the **community metrics** to paint the nodes. Then we combined the **modularity** filter with the **betweenness centrality** filter to decide which nodes would be labeled. Consequently, the folloing representation was generated (we used it in the top of this document):  
+
+<center><img width="800" src="images/header_image.png"></center>
 
 ### Retina
 
