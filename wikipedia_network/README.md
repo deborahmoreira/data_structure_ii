@@ -111,11 +111,11 @@ First we discovered how many k-cores the network had and then we displayed in bl
 
 ## Part II - Different ways to draw the network
 
-Using some tools such as [Gephi](https://gephi.org/), [Retina](https://ouestware.gitlab.io/retina/beta) and [Gephisto](https://jacomyma.github.io/gephisto/) we can visualize our network in different colors and shapes, which help us to better understand what was builded in previous section.
+For the second part of this project we used the `.grapml` output file of our pipeline and some other powerful tools such as [Gephi](https://gephi.org/), [Retina](https://ouestware.gitlab.io/retina/beta) and [Gephisto](https://jacomyma.github.io/gephisto/) to visualize and display our network in different layouts, colors and shapes, which help us to better understand what was builded in previous section.
 
 ### Gephi
 
-With this powerful tool it's possible to import the `.grapml` that we already have and calculate many other metrics easily. Futhermore, this open-source tool allow us to represent the color of nodes based on a metrics and create mutiple filters as needed.
+With this powerful tool it's possible to import the pipeline's `.grapml` output file  and calculate many other metrics easily. Futhermore, this open-source tool allowed us to display our network with specific layouts, represent the color of nodes based on a metrics and use mutiple filters as needed.
 
 * :globe_with_meridians: See the network as a HTML page [![Open in git](https://img.shields.io/badge/webpage-open%20here-green)](https://deborahmoreira.github.io/data_structure_ii/wikipedia_network/network/)
 
@@ -123,14 +123,27 @@ With this powerful tool it's possible to import the `.grapml` that we already ha
 <img src='./images/filtered1.png'>
 </p>
 
-The image shown above reflect our graph when its painted using **in-degree** metric &ndash; that is, the number of edges that reach a node &ndash; and some layouts &ndash; a property based on phisycs laws (ForceAtlas 2) and few expansions were applied until we get a "feel good" shape. 
+To generate the image above we first applied the ForceAtlas 2 layout (a laytout based on phisycs laws) to the network, with the atribute `Dispersion = 10` to better separete nodes from each other. After that, the "magic" started to happen when we paited the nodes using **in-degree** metric &ndash and changed their size based on each node's *overall degree*. The **in-degree* metric is the number of edges that reach a node &ndash, meaning the times of a page is referenced by other pages. Expansions were also performed on the network to enhance the overall look.
 
-After this, a filter was applied selecting that nodes with a higher degree and putting the on a interval that is represented by a color as it follows:
+
+The nodes were first paited with the following colors:
+* nodes with degree 2 : black  
+* nodes with degree 3: light blue 
+* nodes with degree 4: green  
+* nodes with degree 5: turquise  
+* nodes with degree 6: brown
+* nodes with degree 7: orange
+* nodes with degree 8: beige
+* nodes with degree 9: light pink 
+* nodes with degree 10: pink 
+* other nodes: gray
+
+To better group nodes with higher degrees filters were applied, selecting nodes within a range and painting them with a color as it follows:
 * nodes with degree 10 to 38 : deep purple
 * nodes with degree 38 to 86 : yellow
-* nodes with degree higher than 86 : orange
+* nodes with degree higher than 86 : deep red
 	
-As you can see, these steps are intrisic to each network.
+Also, the nodes with the highest degrees (deep red) were labed. As you can see, these steps are intrisic to each network.
 
 ### Retina
 
